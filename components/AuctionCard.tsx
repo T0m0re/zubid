@@ -5,14 +5,22 @@ import Image from "next/image"
 import { useQuery } from "convex/react"
 import { api } from "@/convex/_generated/api"
 import { Id } from "@/convex/_generated/dataModel"
+import { formatCurrency } from "@/lib/utils"
+import { useCountdown } from "./AuctionCountdown"
+
+
 
 const AuctionCard = ({auctionId}: {auctionId: Id<"auctions">}) => {
-    const auction =useQuery(api.auctions.getById, {auctionId})
 
-    if(!auction) return null
+    const auction =useQuery(api.auctions.getById, {auctionId})
+    
+    const  countdown = useCountdown(auction?.auctionEndDate)
+    if (!auction) return null
+    
+ 
   return (
     <div className="relative overflow-hidden rounded-lg shadow-sm mb-2">
-            <div className="relative rounded-lg w-full h-64">
+            <div className="relative rounded-lg w-full  h-64">
                 <Image
                     src={car}
                     alt="car"
@@ -24,11 +32,11 @@ const AuctionCard = ({auctionId}: {auctionId: Id<"auctions">}) => {
                 <div className="absolute bottom-2 left-0 flex justify-between w-full px-2">
                     <div className="flex bg-black/20 items-center justify-center rounded-sm px-2 py-1 gap-2">
                         <TimerIcon />
-                        <p className="text-white text-md">8:23:20</p>
+                        <p className="text-white text-md">{countdown}</p>
                     </div>
                     <div className="flex bg-black/20 items-center justify-between gap-2 rounded-sm px-2 py-1">
-                        <h4 className="text-white font-medium">Current Bid:</h4>
-                        <p className="text-white font-bold">$5000</p>
+                        <h4 className="text-white font-medium">Bid:</h4>
+                        <p className="text-white font-bold">{formatCurrency(50000)}</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +44,7 @@ const AuctionCard = ({auctionId}: {auctionId: Id<"auctions">}) => {
           {/* Auction Details */}
 
             <div className="flex gap-2 mt-2 mr-4 items-center justify-between">
-                <h4 className="text-lg font-bold">{auction?.make}</h4>
+                <h4 className="text-lg font-bold">{auction.year} {auction?.make}</h4>
                 <StarIcon className="text-secondary" />
             </div>
             <div className="flex flex-col gap-2 mt-1 mb-3">

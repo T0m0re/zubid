@@ -46,12 +46,14 @@
       "Factory toolkit and tire repair kit",
       "Lamborghini-branded car cover and battery tender"
     ],
-    "ownershipHistory": "Purchased in Dec 2024, driven ~1,000 miles since"
+    "ownershipHistory": "Purchased in Dec 2024, driven ~1,000 miles since",
+    "auctionEndDate": "2025-06-01T12:00:00Z",
+    "image":"https://example.com/images/audi_rsq8.jpg"
   },
    {
         "make": "Toyota",
         "model": "Land Cruiser VXR",
-        "mileage": "32,000",
+        "mileage": 32000,
         "vin": "JTMHY7AJ5F4041529",
         "titleStatus": "Clean (Abuja, Nigeria)",
         "location": "Maitama, Abuja",
@@ -69,20 +71,22 @@
         "recentService": ["March 2025: Transmission flush, tire alignment"],
         "knownFlaws": ["Minor scratch on rear bumper", "AC slightly noisy on startup"],
         "modifications": ["Bull bar", "Rear camera upgrade"],
-            "highlights": [
-      "19-inch Speedline wheels",
-      "Front suspension lift system",
-      "Transparent engine cover",
-      "Carbon fiber bucket seats",
-      "Extended Alcantara upholstery",
-      "Carbon fiber interior trim",
-      "Alcantara headliner"
-    ]
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ],
+        "auctionEndDate": "2025-06-01T12:00:00Z",
+        "year":2022
     },
     {
         "make": "BMW",
         "model": "X6 M",
-        "mileage": "15,500",
+        "mileage": 15500,
         "vin": "5YMKW8C54J0Y67432",
         "titleStatus": "Clean (Lagos, Nigeria)",
         "location": "Victoria Island, Lagos",
@@ -99,12 +103,23 @@
         "extras": ["Head-up display", "Harman Kardon speakers", "Heated steering"],
         "recentService": ["February 2025: Brake pads replaced, oil service"],
         "knownFlaws": ["Dashboard leather shows light warping"],
-        "modifications": ["Remapped ECU", "Blacked-out grille"]
+        "modifications": ["Remapped ECU", "Blacked-out grille"],
+        "auctionEndDate": "2025-06-01T12:00:00Z",
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ],
+        "year": 2020
     },
     {
         "make": "Porsche",
         "model": "Panamera Turbo",
-        "mileage": "22,000",
+        "mileage": 22000,
         "vin": "WP0AC2A72JL182304",
         "titleStatus": "Clean (Lagos, Nigeria)",
         "location": "Ikoyi, Lagos",
@@ -121,12 +136,23 @@
         "extras": ["Porsche crest headrests", "Soft-close doors"],
         "recentService": ["January 2025: Spark plugs replaced, full inspection"],
         "knownFlaws": ["Minor curb rash on front-left wheel"],
-        "modifications": ["Aftermarket sport exhaust", "Carbon mirror caps"]
+        "modifications": ["Aftermarket sport exhaust", "Carbon mirror caps"],
+        "auctionEndDate": "2025-06-01T12:00:00Z",
+        "year": 2023,
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ]
     },
     {
         "make": "Bentley",
         "model": "Bentayga",
-        "mileage": "10,000",
+        "mileage": 10000,
         "vin": "SJAAC2ZV5JC023482",
         "titleStatus": "Clean (Lagos, Nigeria)",
         "location": "Banana Island, Lagos",
@@ -143,12 +169,23 @@
         "extras": ["Luxury picnic tables", "Naim Audio", "Lambswool rugs"],
         "recentService": ["December 2024: Full Bentley diagnostics and oil change"],
         "knownFlaws": ["Tiny dent on passenger door", "Rear seat massage not working"],
-        "modifications": ["Custom matte wrap", "22-inch Vossen wheels"]
+        "modifications": ["Custom matte wrap", "22-inch Vossen wheels"],
+        "auctionEndDate": "2025-06-01T12:00:00Z",
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ],
+        "year": 2021
     },
     {
         "make": "Rolls-Royce",
         "model": "Ghost",
-        "mileage": "8,200",
+        "mileage": 8200,
         "vin": "SCA664S56EUX53129",
         "titleStatus": "Clean (Abuja, Nigeria)",
         "location": "Wuse II, Abuja",
@@ -164,13 +201,24 @@
         "ownershipHistory": "Custom ordered and delivered through Rolls-Royce Lagos.",
         "extras": ["Starlight Headliner", "Umbrella doors", "Bespoke wood trim"],
         "recentService": ["March 2025: Annual inspection, software update"],
-        "knownFlaws": ["N/A"],
-        "modifications": ["Custom Spirit of Ecstasy lighting", "Upgraded ambient lighting"]
+        "modifications": ["Custom Spirit of Ecstasy lighting", "Upgraded ambient lighting"],
+        "auctionEndDate": "2025-06-10T12:00:00Z",
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ],
+        "year": 2022,
+        "knownFlaws" :["Minor scratch on rear bumper", "AC slightly noisy on startup"]
     },
     {
         "make": "Tesla",
         "model": "Model X Plaid",
-        "mileage": "9,000",
+        "mileage": 9000,
         "vin": "5YJXCBE2XLF223344",
         "titleStatus": "Clean (Lagos, Nigeria)",
         "location": "Lekki Phase 1, Lagos",
@@ -187,12 +235,23 @@
         "extras": ["HEPA Filter", "Autopilot", "Premium connectivity"],
         "recentService": ["April 2025: Battery check, tire balancing"],
         "knownFlaws": ["Software glitches reported with navigation"],
-        "modifications": ["Tinted windows", "Ceramic coating"]
+        "modifications": ["Tinted windows", "Ceramic coating"],
+        "auctionEndDate": "2025-06-15T12:00:00Z",
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ],
+        "year": 2025
     },
     {
         "make": "Audi",
         "model": "RS Q8",
-        "mileage": "11,500",
+        "mileage": 11500,
         "vin": "WU1ARBF1XMD009823",
         "titleStatus": "Clean (Abuja, Nigeria)",
         "location": "Jabi, Abuja",
@@ -209,12 +268,23 @@
         "extras": ["Bang & Olufsen audio", "RS sport suspension"],
         "recentService": ["March 2025: Brake replacement, full diagnostics"],
         "knownFlaws": ["Occasional suspension noise on rough roads"],
-        "modifications": ["Custom splitter", "RS rear diffuser"]
+        "modifications": ["Custom splitter", "RS rear diffuser"],
+        "auctionEndDate": "2025-06-20T12:00:00Z",
+        "highlights": [
+            "19-inch Speedline wheels",
+            "Front suspension lift system",
+            "Transparent engine cover",
+            "Carbon fiber bucket seats",
+            "Extended Alcantara upholstery",
+            "Carbon fiber interior trim",
+            "Alcantara headliner"
+        ],
+        "year": 2023
     },
     {
     "make": "Mercedes-Benz",
     "model": "G63 AMG",
-    "mileage": "12,000",
+    "mileage": 12000,
     "vin": "WDCYC7HJ4KX298123",
     "titleStatus": "Clean (Lagos, Nigeria)",
     "location": "Lekki, Lagos",
@@ -231,12 +301,23 @@
     "extras": ["Car cover", "Window tints", "Upgraded floor mats", "Wireless charger"],
     "recentService": ["January 2025: Oil change, tire rotation, brake fluid replaced"],
     "knownFlaws": ["Worn tire tread on front wheels", "Missing one rear floor mat"],
-    "modifications": ["Aftermarket exhaust", "Upgraded infotainment system"]
+    "modifications": ["Aftermarket exhaust", "Upgraded infotainment system"],
+    "auctionEndDate": "2025-06-25T12:00:00Z",
+    "highlights": [
+      "19-inch Speedline wheels",
+      "Front suspension lift system",
+      "Transparent engine cover",
+      "Carbon fiber bucket seats",
+      "Extended Alcantara upholstery",
+      "Carbon fiber interior trim",
+      "Alcantara headliner"
+    ],
+    "year": 2020
   },
   {
     "make": "Range Rover",
     "model": "Autobiography",
-    "mileage": "18,000",
+    "mileage": 18000,
     "vin": "SALGS2SE0KA543211",
     "titleStatus": "Clean (Abuja, Nigeria)",
     "location": "Asokoro, Abuja",
@@ -253,6 +334,17 @@
     "extras": ["Sunshade", "Fire extinguisher", "Emergency kit", "First aid box"],
     "recentService": ["January 2025: Oil change, tire rotation, brake fluid replaced"],
     "knownFlaws": ["Brake squeal at low speeds", "Infotainment system occasional lag"],
-    "modifications": ["LED fog lights", "Custom leather seat covers"]
+    "modifications": ["LED fog lights", "Custom leather seat covers"],
+    "auctionEndDate": "2025-06-30T12:00:00Z",
+    "highlights": [
+      "19-inch Speedline wheels",
+      "Front suspension lift system",
+      "Transparent engine cover",
+      "Carbon fiber bucket seats",
+      "Extended Alcantara upholstery",
+      "Carbon fiber interior trim",
+      "Alcantara headliner"
+    ],
+    "year": 2021
   }
 ]

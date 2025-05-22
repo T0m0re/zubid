@@ -16,7 +16,7 @@ export default defineSchema({
       engine: v.string(),
       exteriorColor: v.string(),
       extras: v.array(v.string()),
-      highlighs: v.optional(v.array(v.string())),
+      highlights: v.optional(v.array(v.string())),
       image: v.string(),
       interiorColor: v.string(),
       knownFlaws: v.array(v.string()),
@@ -26,16 +26,14 @@ export default defineSchema({
       model: v.string(),
       modifications: v.array(v.string()),
       ownershipHistory: v.string(),
-      recentServices: v.optional(v.array(v.string())),
+      recentService: v.optional(v.array(v.string())),
       seller: v.string(),
       sellerType: v.string(),
       titleStatus: v.string(),
       transmission: v.string(),
       vin: v.string(),
       year: v.float64(),
+      auctionEndDate: v.string(),
     }),
-},
-  {
-    schemaValidation: false,
-  },
+}
 )
