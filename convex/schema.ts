@@ -9,4 +9,33 @@ export default defineSchema({
     })
     .index("by_user_id", ["userId"])
     .index("by_email", ["email"]),
-})
+
+   auctions: defineTable({
+      bodyStyle: v.string(),
+      drivetrain: v.string(),
+      engine: v.string(),
+      exteriorColor: v.string(),
+      extras: v.array(v.string()),
+      highlighs: v.optional(v.array(v.string())),
+      image: v.string(),
+      interiorColor: v.string(),
+      knownFlaws: v.array(v.string()),
+      location: v.string(),
+      make: v.string(),
+      mileage: v.float64(),
+      model: v.string(),
+      modifications: v.array(v.string()),
+      ownershipHistory: v.string(),
+      recentServices: v.optional(v.array(v.string())),
+      seller: v.string(),
+      sellerType: v.string(),
+      titleStatus: v.string(),
+      transmission: v.string(),
+      vin: v.string(),
+      year: v.float64(),
+    }),
+},
+  {
+    schemaValidation: false,
+  },
+)

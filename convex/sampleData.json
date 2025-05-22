@@ -68,7 +68,16 @@
         "extras": ["Rear entertainment system", "Tow hitch", "Full-size spare tire"],
         "recentService": ["March 2025: Transmission flush, tire alignment"],
         "knownFlaws": ["Minor scratch on rear bumper", "AC slightly noisy on startup"],
-        "modifications": ["Bull bar", "Rear camera upgrade"]
+        "modifications": ["Bull bar", "Rear camera upgrade"],
+            "highlights": [
+      "19-inch Speedline wheels",
+      "Front suspension lift system",
+      "Transparent engine cover",
+      "Carbon fiber bucket seats",
+      "Extended Alcantara upholstery",
+      "Carbon fiber interior trim",
+      "Alcantara headliner"
+    ]
     },
     {
         "make": "BMW",

@@ -1,6 +1,10 @@
 
+import AuctionList from "@/components/AuctionList";
+
 export default function Home() {
   return (
-  <div className=""> main</div>
+  <div className="">
+    <AuctionList/>
+  </div>
   );
 }
