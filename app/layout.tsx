@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Noto_Sans} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ConvexClientProvider } from "@/components/ConvexClientProvider";
 import SyncUserWithConvex from "@/components/SyncUsersWithConvex";
 
-const poppins = Poppins({
+const noto = Noto_Sans({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700'], // customize as needed
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
   variable: '--font-poppins',
   display: 'swap',
 });
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
         <body
-          className={`${poppins.variable} antialiased`}
+          className={`${noto.variable} antialiased`}
           >
             <ConvexClientProvider>
           <ClerkProvider>

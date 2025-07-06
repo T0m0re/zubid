@@ -7,6 +7,7 @@ import { api } from "@/convex/_generated/api"
 import { Id } from "@/convex/_generated/dataModel"
 import { formatCurrency } from "@/lib/utils"
 import { useCountdown } from "./AuctionCountdown"
+import AuctionCountdownAndPrice from "./AuctionCountdownAndPrice"
 
 
 
@@ -30,14 +31,16 @@ const AuctionCard = ({auctionId}: {auctionId: Id<"auctions">}) => {
                 />
 
                 <div className="absolute bottom-2 left-0 flex justify-between w-full px-2">
-                    <div className="flex bg-black/20 items-center justify-center rounded-sm px-2 py-1 gap-2">
+                    {/* <div className="flex bg-black/20 items-center justify-center rounded-sm px-2 py-1 gap-2">
                         <TimerIcon />
                         <p className="text-white text-md">{countdown}</p>
                     </div>
                     <div className="flex bg-black/20 items-center justify-between gap-2 rounded-sm px-2 py-1">
                         <h4 className="text-white font-medium">Bid:</h4>
                         <p className="text-white font-bold">{formatCurrency(50000)}</p>
-                    </div>
+                    </div> */}
+
+                    <AuctionCountdownAndPrice price={5000} endTime={auction?.auctionEndDate}/>
                 </div>
             </div>
 

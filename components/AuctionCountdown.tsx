@@ -33,7 +33,7 @@ export function useCountdown(targetDateString: string | null | undefined) {
 
       if (diffInDays === 0) {
         setTimeLeft(
-          `${diffInHours}:${String(diffInMinutes % 60).padStart(2, "0")}:${String(diffInSeconds % 60).padStart(2, "0")}`
+          `${String(diffInHours).padStart(2, "0")}:${String(diffInMinutes % 60).padStart(2, "0")}:${String(diffInSeconds % 60).padStart(2, "0")}`
         );
       } else if (diffInDays === 1 && diffInHours < 24) {
         setTimeLeft(`${diffInHours} Hours`);
